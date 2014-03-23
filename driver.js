@@ -23,7 +23,7 @@
     }
   };
 
-  var _ = require('underscore'), usb = require('node-usb/usb.js');
+  var _ = require('underscore'), usb = require('usb');
 
   var launcher = usb.find_by_vid_and_pid(DEVICE.ID.VENDOR, DEVICE.ID.PRODUCT)[0];
 
